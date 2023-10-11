@@ -51,7 +51,7 @@
     box-shadow: 1px 1px 10px 1px;
     background-color: #52496d;
     border-radius: 10px;
-    padding: 20px
+    padding: 0px
   }
   
   .main-profile {
@@ -61,9 +61,9 @@
   }
   
   .user-info img {
-    width: 100px;
+    width: 400px;
     border-radius: 20%;
-    margin-top: -25rem;
+    margin-top: 25rem;
   }
   
   .user-info h3 {
@@ -71,7 +71,7 @@
   }
   
   .user-info p {
-    color: #5b7083;
+    color: #e3ecf5;
   }
   
   .follow-btn button {
