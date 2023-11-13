@@ -28,10 +28,86 @@
  *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
  */
 
-html {
-  font-size: 1.0rem;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+ html {
+    font-size: 1.0rem;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edcdcd;
+  }
+  
+  .container {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    box-shadow: 1px 1px 10px 1px;
+    background-color: #52496d;
+    border-radius: 10px;
+    padding: 0px
+  }
+  
+  .main-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .user-info img {
+    width: 400px;
+    border-radius: 20%;
+    margin-top: 25rem;
+  }
+  
+  .user-info h3 {
+    font: size 1.3rem;
+  }
+  
+  .user-info p {
+    color: #e3ecf5;
+  }
+  
+  .follow-btn button {
+    position: inherit;
+     top: 0;
+     left: 1rem;
+     background-color: rgb(215, 227, 235);
+  
+     display: block;
+     margin-top: 1rem;
+     color: rgb(77, 67, 230);
+     padding: 1rem;
+   
+     border-radius: 3rem;
+     text-decoration: none;
+     margin-left: 15rem;
+     margin-right: 1rem;
+  }
+  /*do we need a cursor or outline?*/
+  
+  .follow-btn button:haver {
+    background-color: #797e83;
+  }
+  /*i dont think you need this part (on top) it had s somehting to do with transition which you did not learn yet*/
+  
+  .user-bio {
+    color: #0f1419;
+    margin-bottom: 10px
+  }
+  
+  .user-bio a {
+    color:#1da1f2;
+    text-decoration: none;
+  }
+  
+  .user-bio a:hover {
+    text-decoration: underline;
+  }
+  
